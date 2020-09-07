@@ -18,7 +18,7 @@ def main():
         plug_args = sys.argv[2:]
 
     except IndexError:
-        print("usage:\nshockshell [OPTIONS]... PLUGIN [ARGS]...\nfor help, see beautty -h/--help", file=sys.stderr)
+        print("usage:\nshockshell [OPTIONS]... PLUGIN [ARGS]...\nfor help, see shockshell -h/--help", file=sys.stderr)
 
         return 1
 
